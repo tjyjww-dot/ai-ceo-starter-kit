@@ -1,0 +1,38 @@
+Template (3), part two, from "I Hired an AI as My CEO", Appendix E (Chapter 14).
+
+HOW TO USE
+  1. Put this file and 03-mini-twin-status-file-example.json in the same folder.
+  2. Copy everything between the two dashed lines below.
+  3. Paste it to Claude, in that folder.
+  4. Double-click the HTML file Claude produces. The 3D office opens in your browser.
+
+Nothing below needs editing before you paste it. If you renamed the JSON file, change the
+filename in the first line to match.
+
+------------------------------------------------------------------------------
+Read the file 03-mini-twin-status-file-example.json in this folder and make a
+single self-contained web page that shows it as a small 3D office.
+
+Draw one human-shaped avatar per entry in "departments", standing at its own
+desk, and color each avatar by its status: green for normal, red for warning,
+gray for dormant. Put the department name on a label above each avatar, and
+show its "note" text when I hover over it.
+
+Use Three.js. Everything must work when I open the HTML file directly from my
+own computer by double-clicking it, with no server running and no internet
+connection, so inline everything into the one file. If the JSON cannot be read
+that way in a browser, embed the JSON contents directly into the page and add a
+comment telling me which line to update when the status changes.
+
+Add a line at the bottom showing the "updated_at" value, so I can always tell
+how stale what I'm looking at is.
+------------------------------------------------------------------------------
+
+WHEN IT DOESN'T WORK
+  Show Claude the browser screen exactly as it is and say: "Nothing's showing on the screen.
+  Can you check the cause?" Do not try to read the code yourself -- that is what your employee
+  is for.
+
+WHERE TO GO NEXT
+  Chapter 14, "Let's Do This: Deploy to Vercel and Add a Password Door," turns this local file
+  into something you can open from your phone, with a password on the front door.
