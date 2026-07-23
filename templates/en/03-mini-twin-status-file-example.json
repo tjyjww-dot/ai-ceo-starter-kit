@@ -1,0 +1,24 @@
+{
+  "_comment": "Template 3 from 'I Hired an AI as My CEO', Appendix E (Chapter 14). Replace the three departments with three real things you have right now. status must be one of: normal, warning, dormant.",
+  "updated_at": "2026-07-22 08:00",
+  "departments": [
+    {
+      "name": "Blog",
+      "status": "normal",
+      "last_checked": "2026-07-22 08:00",
+      "note": "1 post published today"
+    },
+    {
+      "name": "YouTube",
+      "status": "warning",
+      "last_checked": "2026-07-22 08:00",
+      "note": "Upload token expires in 2 days"
+    },
+    {
+      "name": "Trading bot",
+      "status": "dormant",
+      "last_checked": "2026-07-21 16:30",
+      "note": "Market closed"
+    }
+  ]
+}
