@@ -1,0 +1,24 @@
+{
+  "_comment": "『나는 AI를 사장으로 고용했다』 부록 E, 템플릿 ③(14장용). '부서' 세 개를 지금 여러분이 가진 실제 것 세 개로 바꾸세요. status는 반드시 normal, warning, dormant 셋 중 하나여야 합니다.",
+  "updated_at": "2026-07-22 08:00",
+  "departments": [
+    {
+      "name": "블로그",
+      "status": "normal",
+      "last_checked": "2026-07-22 08:00",
+      "note": "오늘 글 1편 발행됨"
+    },
+    {
+      "name": "유튜브",
+      "status": "warning",
+      "last_checked": "2026-07-22 08:00",
+      "note": "업로드 토큰 2일 뒤 만료"
+    },
+    {
+      "name": "투자봇",
+      "status": "dormant",
+      "last_checked": "2026-07-21 16:30",
+      "note": "장 마감"
+    }
+  ]
+}
